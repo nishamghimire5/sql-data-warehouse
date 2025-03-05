@@ -1,6 +1,6 @@
-===============================================================================
-DDL Script: Create Bronze Tables
-===============================================================================
+-- ===============================================================================
+-- DDL Script: Create Bronze Tables
+-- ===============================================================================
 
 -- This SQL script is used to create the necessary tables for the CRM and ERP systems.
 -- It includes tables for customer information, product information, sales details, and location data.
