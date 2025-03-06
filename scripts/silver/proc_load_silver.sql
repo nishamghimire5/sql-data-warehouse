@@ -243,12 +243,12 @@ BEGIN
         SET @start_time = GETDATE();
         PRINT('Transforming Data for Table: silver.erp_px_cat_g1v2');
         INSERT INTO silver.erp_px_cat_g1v2
-        (id, cat, subcat, maintenace)
+        (id, cat, subcat, maintenance)
     SELECT
         id,
         cat,
         subcat,
-        maintenace
+        maintenance
     FROM bronze.erp_px_cat_g1v2;
 
         SET @end_time = GETDATE();
